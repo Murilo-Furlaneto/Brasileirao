@@ -2,13 +2,7 @@
 
 🚀 Novo projeto no GitHub: Consumo de API em um app Flutter 📱
 
-Acabo de compartilhar um novo projeto no meu repositório do GitHub, no qual explorei a integração de APIs em um aplicativo desenvolvido com Flutter. ✨
-
-Neste projeto, utilizei as seguintes tecnologias e ferramentas:
-
-🔹 Flutter: Um framework de desenvolvimento de interfaces de usuário (UI) de código aberto, desenvolvido pelo Google. <br />
-🔹 Dart: A linguagem de programação utilizada pelo Flutter para desenvolvimento de aplicativos multiplataforma. <br />
-🔹 Visual Studio Code: O editor de código que utilizei para desenvolver o projeto.
+Acabo de compartilhar um novo projeto no meu repositório do GitHub, no qual explorei a integração de APIs em um aplicativo desenvolvido com Flutter.
 
 O objetivo do projeto era consolidar meus conhecimentos na utilização de APIs em projetos de desenvolvimento de software, explorando os seguintes pontos-chave:
 
@@ -21,15 +15,9 @@ Além disso, utilizei um package do Flutter para auxiliar no desenvolvimento:
 
 🔹 http: Um package para fazer requisições HTTP e interagir com APIs.
 
-## Getting Started
+## Vídeo do Projeto
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://github.com/Murilo-Furlaneto/Brasileirao/assets/64844221/cd4eeb96-ab27-4cfd-b84e-091af40c1796
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
