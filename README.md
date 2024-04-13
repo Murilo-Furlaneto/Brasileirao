@@ -1,9 +1,5 @@
 # brasileirao
 
-🚀 Novo projeto no GitHub: Consumo de API em um app Flutter 📱
-
-Acabo de compartilhar um novo projeto no meu repositório do GitHub, no qual explorei a integração de APIs em um aplicativo desenvolvido com Flutter.
-
 O objetivo do projeto era consolidar meus conhecimentos na utilização de APIs em projetos de desenvolvimento de software, explorando os seguintes pontos-chave:
 
 🔸 Consumo de API: Utilizei a biblioteca http para realizar as chamadas HTTP e obter os dados de uma API de campeonato de futebol. <br />
