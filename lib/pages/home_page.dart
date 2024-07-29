@@ -1,3 +1,5 @@
+import 'package:brasileirao/controller/http_service.dart';
+import 'package:brasileirao/repository/api_repository.dart';
 import 'package:flutter/material.dart';
 import '../model/tabela_model.dart';
 import '../controller/api_service.dart';
@@ -13,8 +15,8 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   List<Tabela> tabela = [];
   List<Artilheiro> artilheiros = [];
-  final ApiService apiService = ApiService();
   bool isDark = false;
+  final ApiRepository apiRepository = ApiRepository(HttpService());
 
   @override
   void initState() {
@@ -22,17 +24,14 @@ class _HomePageState extends State<HomePage> {
     initializeData();
   }
 
-  // metodo utilizado para inicializar os dados da tabela e dos artilheiros.
-  //armazena os dados retornados nas variáveis tabela e artilheiros
   Future<void> initializeData() async {
     try {
-      final tabelaData = await apiService.fetchCampeonato();
-      final artilheirosData = await apiService.getArtilharia();
+      final tabelaData = await apiRepository.fetchCampeonato();
+      final artilheirosData = await apiRepository.fetchArtilharia();
 
       setState(() {
-        tabela = tabelaData.map((json) => Tabela.fromJson(json)).toList();
-        artilheiros =
-            artilheirosData.map((json) => Artilheiro.fromJson(json)).toList();
+        tabela = tabelaData;
+        artilheiros = artilheirosData;
       });
     } catch (e) {
       print('Erro ao buscar dados: $e');
