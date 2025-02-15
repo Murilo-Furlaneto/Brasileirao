@@ -1,15 +1,38 @@
-# brasileirao
+Aplicativo do Brasileirão - Flutter
 
-O objetivo do projeto era consolidar meus conhecimentos na utilização de APIs em projetos de desenvolvimento de software, explorando os seguintes pontos-chave:
+Este aplicativo Flutter tem como objetivo fornecer informações sobre o campeonato brasileiro de futebol, como partidas e classificação, através da integração com uma API de futebol2. O projeto foi desenvolvido para consolidar conhecimentos na utilização de APIs em projetos de desenvolvimento de software8.
+Funcionalidades
 
-🔸 Consumo de API: Utilizei a biblioteca http para realizar as chamadas HTTP e obter os dados de uma API de campeonato de futebol. <br />
-🔸 Estrutura MVC: Organizei o código do aplicativo seguindo o padrão Model-View-Controller (MVC), separando as responsabilidades em diferentes camadas. <br />
-🔸 Classes de modelo: Criei classes de modelo (Tabela e Artilheiro) para mapear os dados retornados pela API e facilitar a manipulação e exibição na interface de usuário.<br />
-🔸 Tema claro/escuro: Implementei um recurso que permite ao usuário alternar entre temas claro e escuro na aplicação. <br />
+    Consumo de API: Utilização da biblioteca http para realizar chamadas HTTP e obter dados de uma API de campeonato de futebol8.
 
-Além disso, utilizei um package do Flutter para auxiliar no desenvolvimento:
+    Estrutura MVC: Organização do código seguindo o padrão Model-View-Controller (MVC), separando as responsabilidades em diferentes camadas8.
 
-🔹 http: Um package para fazer requisições HTTP e interagir com APIs.
+    Classes de modelo: Criação de classes de modelo (Tabela e Artilheiro) para mapear os dados retornados pela API e facilitar a manipulação e exibição na interface de usuário8.
+
+    Tema claro/escuro: Implementação de um recurso que permite ao usuário alternar entre temas claro e escuro na aplicação8.
+
+Tecnologias Utilizadas
+
+    Flutter23
+
+    Dart23
+
+    http (para requisições HTTP)
+
+
+Como Executar o Projeto
+
+    Clone o repositório.
+
+    Entre na pasta do projeto.
+
+    Execute flutter pub get para instalar as dependências.
+
+    Execute flutter run para rodar o aplicativo.
+
+Créditos
+
+    Este projeto foi inspirado e utiliza dados de uma API de futebol
 
 ## Vídeo do Projeto
 
