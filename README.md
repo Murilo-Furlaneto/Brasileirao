@@ -13,9 +13,9 @@ Funcionalidades
 
 Tecnologias Utilizadas
 
-    Flutter23
+    Flutter
 
-    Dart23
+    Dart
 
     http (para requisições HTTP)
 
