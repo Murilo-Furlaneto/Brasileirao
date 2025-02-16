@@ -9,8 +9,6 @@ class Tabela {
     required this.nomeTime,
   });
 
-  // Recebe um Map
-
   factory Tabela.fromJson(Map<String, dynamic> map) {
     return Tabela(
       posicao: map['posicao'],
@@ -19,7 +17,6 @@ class Tabela {
     );
   }
 
-  // Retorna um Map
   Map<String, dynamic> toJson() {
     return {
       'posicao': posicao,

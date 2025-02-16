@@ -2,7 +2,7 @@
 *.class
 *.log
 *.pyc
-*.swp
+*.swp 
 .DS_Store
 .atom/
 .buildlog/
@@ -15,8 +15,7 @@ migrate_working_dir/
 *.ipr
 *.iws
 .idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
+.vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
 #.vscode/
@@ -43,5 +42,4 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-#DART
-key.dart
+*.env
